@@ -1,39 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget
-xmlns="http://www.w3.org/ns/widgets"
-xmlns:gap="http://phonegap.com/ns/1.0"
-id="com.akrotech.phonegapdemo"
-versionCode="1"
-version="1.0.0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.akrotech.phonegap"
+    versionCode = "1"
+    version     = "1.0.0" >
+   <name>PhoneGap Demo</name>
+    <description>
+            Demo App for PhoneGap Build
+    </description>
+    <author href="https://akrotech.com" email="support@akrotech.com ">
+             Tom Tsiliopoulos
+    </author>
 
-  <name>PHONEGAPDEMO</name>
-  <description>
-      A sample app for my PhoneGap Build
-  </description>
+    <platform name="ios"/>
+    <platform name="android"/>
+    <platform name="winphone"/>
+    <preference name="phonegap-version" value="cli-6.1.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="disallowOverscroll" value="true" />
+    <preference name="target-device" value="universal"/>
+    <preference name="deployment-target" value="7.0"/>
+    <preference name="exit-on-suspend" value="false"/>
+    <preference name="detect-data-types" value="true"/>
+    <preference name="prerendered-icon" value="false"/>
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="ios-statusbarstyle" value="default"/>
+    <preference name="StatusBarStyle" value="default" />
 
-  <author href="https://akrotech.com" email="tom@akrotech.com">
-        Tom Tsiliopoulos
-  </author>
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="android-installLocation" value="auto" />
 
-  <platform name="ios">
-  <platform name="android">
-  <preference name="phonegap-version" value="cli-6.1.0">
-  <preference name="orientation" value="portrait">
-  <preference name="fullscreen" value="false">
-  <preference name="DisallowOverscroll" value="true">
-  <preference name="disallowOverscroll" value="true">
-  <preference name="target-device" value="universal">
-  <preference name="deployment-target" value="7.0">
-  <preference name="exit-on-suspend" value="false">
-  <preference name="detect-data-types" value="true">
-  <preference name="prerendered-icon" value="false">
-  <preference name="StatusBarOverlaysWebView" value="false">
-  <preference name="ios-statusbarstyle" value="default">
-  <preference name="StatusBarStyle" value="default">
-  <preference name="android-minSdkVersion" value="21">
-  <preference name="android-installLocation" value="auto">
-
-  <platform name="ios">
+     <platform name="ios">
         <icon src="Assets/icon/ios/icon.png" width="57" height="57"/>
         <icon src="Assets/icon/ios/icon@2x.png" width="114" height="114"/>
         <icon src="Assets/icon/ios/icon-40.png" width="40" height="40"/>
@@ -61,7 +61,7 @@ version="1.0.0">
         <icon src="Assets/icon/android/drawable-xxxhdpi-icon" qualifier="xxxhdpi"/>
       </platform>
 
-      <platform name="ios">
+       <platform name="ios">
         <splash src="Assets/screen/ios/Default~iphone.png" width="320" height="480"/>
         <splash src="Assets/screen/ios/Default@2x~iphone.png" width="640" height="960"/>
         <splash src="Assets/screen/ios/Default-Portrait~ipad.png" width="768" height="1024"/>
@@ -96,4 +96,5 @@ version="1.0.0">
         <allow-intent href="itms:*"/>
         <allow-intent href="itms-apps:*"/>
       </platform>
+
 </widget>
