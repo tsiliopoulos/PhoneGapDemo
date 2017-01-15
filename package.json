@@ -1,0 +1,11 @@
+{
+  "name": "phonegapdemo",
+  "version": "1.0.0",
+  "description": "A demo app to use with PhoneGap Build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Tsiliopoulos",
+  "license": "ISC"
+}
